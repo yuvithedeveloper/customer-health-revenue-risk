@@ -1,0 +1,42 @@
+CLOUDPATH ANALYTICS - CUSTOMER SUCCESS INTERACTION DATA QUALITY REPORT
+=================================================================
+
+RAW DATA
+Raw rows: 3101
+Exact duplicate rows: 15
+Inconsistent interaction-type values: 12
+Inconsistent engagement-status values: 12
+Noncanonical follow-up boolean values: 11
+Inconsistent notes-category values: 10
+Follow-up dates before interaction dates: 7
+Interactions with missing CSM: 33
+
+CLEANED DATA
+Clean rows: 3086
+Unique interaction IDs: 3086
+Accounts with interactions: 487
+Engaged interactions: 1836
+Neutral interactions: 887
+Unresponsive interactions: 363
+Follow-up required interactions: 1211
+Missing CSM values retained: 33
+Required follow-ups with unknown date: 7
+Invalid interaction types remaining: 0
+Invalid engagement statuses remaining: 0
+Invalid notes categories remaining: 0
+Invalid boolean values remaining: 0
+Invalid follow-up dates remaining: 0
+Business rule violations: 0
+
+CLEANING ACTIONS
+- Removed exact duplicate records
+- Standardized interaction-type values
+- Standardized engagement-status values
+- Standardized follow-up boolean values
+- Standardized notes-category values
+- Removed invalid follow-up dates rather than inventing replacement dates
+- Retained missing CSM values where the account itself has no assigned CSM
+- Validated account foreign keys
+- Validated interaction dates against customer signup and churn dates
+- Validated follow-up dates against interaction dates
+- Validated CSM names against account assignments where available

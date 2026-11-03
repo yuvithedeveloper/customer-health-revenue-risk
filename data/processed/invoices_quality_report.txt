@@ -1,0 +1,43 @@
+CLOUDPATH ANALYTICS - INVOICE DATA QUALITY REPORT
+=================================================================
+
+RAW DATA
+Raw rows: 4440
+Exact duplicate rows: 20
+Inconsistent payment-status values: 16
+Inconsistent payment-method values: 12
+Missing payment-method values: 15
+Negative days_late rows: 8
+Payment dates before invoice dates: 6
+
+CLEANED DATA
+Clean rows: 4420
+Unique invoice IDs: 4420
+Accounts with invoice records: 497
+Paid invoices: 3571
+Late invoices: 584
+Pending invoices: 131
+Failed invoices: 134
+Missing payment methods retained: 15
+Invalid payment statuses remaining: 0
+Invalid payment methods remaining: 0
+Negative days_late rows remaining: 0
+Invalid payment dates remaining: 0
+Business rule violations: 0
+
+PAYMENT METRICS
+Total invoice value: $31,880,975.00
+Average days late for late invoices: 13.52
+
+CLEANING ACTIONS
+- Removed exact duplicate records
+- Standardized payment-status values
+- Standardized payment-method values
+- Retained missing payment methods rather than inventing unavailable information
+- Converted invalid negative days_late values to positive values
+- Corrected payment dates that occurred before their invoice dates
+- Recalculated days_late for late invoices from due and payment dates
+- Validated account foreign keys
+- Validated invoice and payment date logic
+- Validated invoice amounts
+- Validated payment-status business rules

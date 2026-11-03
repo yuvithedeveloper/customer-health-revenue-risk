@@ -1,0 +1,30 @@
+CLOUDPATH ANALYTICS - PRODUCT USAGE DATA QUALITY REPORT
+=================================================================
+
+RAW DATA
+Raw rows: 8196
+Exact duplicate rows: 12
+Rows with active_users > licensed_users: 10
+Rows with core_features_used > 8: 8
+Rows with negative login_count: 8
+
+CLEANED DATA
+Clean rows: 8184
+Unique usage IDs: 8184
+Unique account-month combinations: 8184
+Accounts with usage records: 500
+Invalid active-user rows remaining: 0
+Invalid feature-count rows remaining: 0
+Negative login rows remaining: 0
+Business rule violations: 0
+
+CLEANING ACTIONS
+- Removed exact duplicate records
+- Capped active_users at licensed_users when raw values exceeded the licensed limit
+- Capped core_features_used at 8 when raw values exceeded the valid maximum
+- Replaced negative login_count values with 0
+- Validated account foreign keys
+- Validated account-month uniqueness
+- Validated usage dates against signup and churn dates
+- Validated non-negative activity metrics
+- Retained valid temporary usage spikes because they represent legitimate behavioral variation

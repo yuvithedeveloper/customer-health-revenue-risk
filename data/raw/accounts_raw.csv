@@ -1,0 +1,507 @@
+account_id,account_name,industry,segment,region,signup_date,customer_status,churn_date,assigned_csm
+62,Powell LLC,Healthcare,Mid-Market,South,2024-03-12,Active,,Sofia Martinez
+404,Berry-Mckinney,Manufacturing,Mid-Market,South,2024-06-30,Active,,Rachel Kim
+466,Walker-Flores,Technology,Enterprise,West,2025-08-05,active,,Rachel Kim
+405,Roberts-Sullivan,Manufacturing,SMB,South,2025-08-12,Active,,Jordan Lee
+231,"Clark, Guerrero and Moore",Technology,Mid-Market,Midwest,2025-10-20,Active,,Ethan Walker
+299,"Thomas, Murray and King",,SMB,Midwest,2024-07-18,Active,,Ethan Walker
+419,"Downs, Morris and Maddox",Technology,Mid-Market,West,2025-10-25,Active,,Daniel Brooks
+454,Mckee-Lee,Healthcare,Mid-Market,Northeast,2024-04-07,Active,,Maya Chen
+371,Reynolds Ltd,Retail,Enterprise,SOUTH,2024-06-05,Active,,Jordan Lee
+275,Cook-Hines,Retail,Mid-Market,South,2024-11-03,Active,,Priya Shah
+130,"Parker, Ortiz and Powell",Professional Services,Enterprise,Midwest,2026-08-31,Active,,Maya Chen
+169,Hooper PLC,Technology,SMB,Canada,2024-05-24,Active,,Jordan Lee
+37,Smith-Bowen,Logistics,Enterprise,Northeast,2025-05-12,Active,,Marcus Johnson
+308,Smith-Grimes,Professional Services,Mid-Market,Midwest,2026-01-08,Active,,Maya Chen
+443,"Henderson, Cox and Cox",Technology,SMB,South,2024-09-10,Active,,Rachel Kim
+214,"Carlson, Hooper and Wall",Healthcare,Enterprise,West,2025-01-05,Active,,Daniel Brooks
+339,Garcia-Jennings,Professional Services,Mid-Market,West,2025-11-27,Active,,Daniel Brooks
+254,"Johnson, Miller and King",Manufacturing,SMB,Canada,2024-09-16,Active,,Maya Chen
+465,Hughes Inc,Retail,SMB,Midwest,2025-06-24,Active,,Maya Chen
+186,Sanders-Espinoza,Financial Services,SMB,Northeast,2025-03-07,Active,,Daniel Brooks
+422,"Brown, Romero and Collins",,Mid-Market,West,2026-06-23,Active,,Jordan Lee
+205,Freeman-Chang,Financial Services,SMB,South,2026-08-22,Active,,Daniel Brooks
+27,Baker and Sons,Manufacturing,Mid-Market,West,2025-02-12,Active,,Ethan Walker
+370,Davis Inc,Retail,SMB,Northeast,2024-05-29,Active,,Maya Chen
+119,"Rivera, Johnson and Wiley",Technology,Enterprise,Northeast,2025-07-25,Active,,Rachel Kim
+117,Rasmussen LLC,Media,SMB,Northeast,2026-06-01,Churned,2026-09-07,Marcus Johnson
+60,Gomez-Jenkins,Technology,Mid-Market,West,2026-05-29,Active,,Marcus Johnson
+34,Frazier Inc,,Mid-Market,Northeast,2025-07-03,Active,,Marcus Johnson
+277,Pollard and Sons,Technology,SMB,West,2024-01-27,Active,,Ethan Walker
+92,"Garcia, Humphrey and Baker",Financial Services,SMB,South,2025-04-10,Active,,Ethan Walker
+348,"Smith, Garrison and Thomas",Healthcare,Enterprise,West,2025-01-21,Active,,Rachel Kim
+213,"Washington, Hardy and Bray",Healthcare,Mid-Market,Northeast,2024-01-22,Active,,Ethan Walker
+49,Hickman Ltd,Media,Mid-Market,Northeast,2026-06-18,Active,,Priya Shah
+233,Ortiz Ltd,Healthcare,SMB,South,2024-07-03,Active,,Jordan Lee
+322,"Ramsey, Whitney and Coffey",Healthcare,SMB,West,2024-04-12,Churned,2026-07-18,Priya Shah
+343,"Harper, Smith and Buchanan",Technology,SMB,Northeast,2025-03-01,Active,,Marcus Johnson
+167,Johnson-Rogers,Retail,SMB,Canada,2025-06-27,Active,,Sofia Martinez
+460,"Rosales, Mitchell and Hines",Healthcare,Mid-Market,Northeast,2026-07-07,Active,,Daniel Brooks
+390,Webster Inc,Technology,Enterprise,South,2026-05-08,Active,,Daniel Brooks
+135,"Lawson, Morris and Ramos",Healthcare,Mid-Market,South,2024-11-27,Active,,Daniel Brooks
+141,Riggs PLC,Retail,Mid-Market,South,2026-05-04,active,,Marcus Johnson
+148,Bryant Group,Professional Services,Mid-Market,Canada,2025-05-22,Active,,Maya Chen
+208,"Wood, Tran and Cooper",Manufacturing,SMB,Midwest,2025-06-23,Churned,2026-04-11,Sofia Martinez
+457,Burch-Montoya,Professional Services,SMB,Northeast,2025-01-11,Churned,2025-08-25,Sofia Martinez
+222,Wilson-Jones,Healthcare,smb,Northeast,2025-01-12,Churned,2025-07-13,Sofia Martinez
+237,"Guerrero, Peck and Coleman",Manufacturing,Mid Market,West,2026-01-08,Churned,2026-10-11,Marcus Johnson
+355,Hayes and Sons,Healthcare,SMB,Midwest,2026-02-11,Churned,2026-07-25,Maya Chen
+481,Jones-Fox,,Enterprise,South,2024-11-25,Active,,Jordan Lee
+257,Gutierrez-Lopez,Technology,SMB,Northeast,2026-01-03,Churned,2026-07-15,Marcus Johnson
+364,"Wilson, Pena and Rich",Manufacturing,Mid-Market,West,2024-07-11,Active,,Jordan Lee
+351,Smith and Sons,Media,Mid-Market,South,2026-01-06,Active,,Rachel Kim
+41,Ryan PLC,Retail,SMB,Midwest,2026-05-23,Churned,2026-12-29,Priya Shah
+72,House-Glover,Media,Mid-Market,West,2025-11-05,Active,,Daniel Brooks
+168,"Yates, Ramsey and Pittman",Professional Services,SMB,South,2026-04-05,Active,,Sofia Martinez
+485,Cooper Ltd,Professional Services,SMB,West,2024-09-05,Active,,Marcus Johnson
+432,Cox LLC,Manufacturing,SMB,South,2024-06-20,Active,,Daniel Brooks
+111,"Shields, Cochran and Adams",Media,SMB,Midwest,2024-12-26,Active,,Marcus Johnson
+363,"Phillips, Wagner and Jordan",Logistics,Mid-Market,West,2024-04-04,Churned,2026-01-22,Jordan Lee
+276,Gibson-Morris,Manufacturing,Enterprise,West,2025-06-04,Active,,Jordan Lee
+325,Richards-Carson,Retail,SMB,Midwest,2026-01-10,Active,,Maya Chen
+486,"Fuller, Ingram and Moss",Media,Enterprise,West,2026-01-20,Active,,Jordan Lee
+64,"West, Henderson and Ramirez",Media,SMB,Northeast,2024-04-21,Active,,Rachel Kim
+319,Coffey-Phillips,Healthcare,SMB,Northeast,2025-05-05,Active,,Jordan Lee
+312,Byrd-Le,Technology,Mid-Market,Northeast,2024-07-31,Active,,Ethan Walker
+216,Erickson and Sons,Financial Services,Mid-Market,West,2024-03-19,Active,,Daniel Brooks
+498,Morgan-Lopez,Healthcare,Enterprise,Northeast,2024-11-02,Active,,Sofia Martinez
+316,Burgess-Thompson,Manufacturing,Mid-Market,South,2025-05-06,Active,,Ethan Walker
+377,Moore Group,Retail,SMB,South,2025-09-24,Active,,Marcus Johnson
+87,Anderson-Bailey,Healthcare,Mid Market,Northeast,2024-12-26,Active,,Sofia Martinez
+156,"Mitchell, Nelson and Flores",Technology,SMB,Midwest,2025-08-02,Churned,2025-12-10,Priya Shah
+329,Reid Group,Retail,Mid-Market,West,2024-05-17,Active,,Marcus Johnson
+146,Robinson-Brock,Technology,SMB,West,2025-08-08,Active,,Rachel Kim
+243,"Fernandez, Kim and George",Technology,SMB,Northeast,2024-06-13,Active,,Sofia Martinez
+234,"Harrison, Johnson and Roberts",Technology,Mid-Market,Canada,2024-06-07,Active,,Daniel Brooks
+65,Baxter Inc,Healthcare,Mid-Market,Canada,2024-04-28,Active,,Rachel Kim
+492,Blackwell LLC,Manufacturing,SMB,Northeast,2024-10-25,Active,,Sofia Martinez
+431,"Kim, Gonzales and Mills",Retail,Enterprise,Northeast,2025-01-28,Active,,Marcus Johnson
+228,Kerr-Evans,,Mid-Market,Northeast,2025-11-25,Active,,Rachel Kim
+349,Fernandez and Sons,Logistics,Enterprise,Northeast,2026-05-30,Active,,Ethan Walker
+8,"Henderson, Ramirez and Lewis",Technology,Mid-Market,Northeast,2024-10-23,Active,,Daniel Brooks
+369,Mcdaniel Group,Professional Services,Mid-Market,West,2024-11-23,Active,,Jordan Lee
+191,"Wood, Hunter and Peterson",,SMB,Midwest,2025-07-15,Active,,Ethan Walker
+101,"Patterson, Smith and Jones",Technology,Mid-Market,Midwest,2025-11-08,Churned,2026-07-30,Ethan Walker
+397,Duran LLC,Technology,SMB,Midwest,2024-11-28,Churned,2026-04-25,Rachel Kim
+262,"Lloyd, Mckinney and Collins",Manufacturing,SMB,South,2026-03-27,Active,,Sofia Martinez
+342,Davis-Lewis,Manufacturing,SMB,West,2025-05-15,Active,,Daniel Brooks
+206,"Alvarez, Joseph and West",,SMB,Northeast,2024-03-24,Active,,Sofia Martinez
+18,"Flowers, Martin and Kelly",Healthcare,Mid-Market,Northeast,2025-07-20,Active,,Maya Chen
+285,"Booker, Jones and Harrington",Technology,Mid-Market,Midwest,2025-08-29,Active,,Priya Shah
+444,Bean LLC,Financial Services,Mid-Market,South,2025-04-07,Active,,Daniel Brooks
+336,Bass PLC,Logistics,Enterprise,West,2025-12-07,Active,,Daniel Brooks
+110,Patton-Jenkins,Financial Services,SMB,Mid-west,2025-01-12,Active,,Marcus Johnson
+42,George Group,Technology,SMB,Midwest,2025-11-22,Active,,Jordan Lee
+381,"Austin, Day and Johnson",Healthcare,SMB,South,2025-08-01,Active,,Jordan Lee
+451,Diaz-Ball,Media,SMB,Northeast,2025-12-06,Active,,Priya Shah
+157,"Miller, Hernandez and Reyes",Healthcare,Mid-Market,West,2025-05-24,Active,,Priya Shah
+238,"Walker, Hernandez and Baker",Financial Services,Mid-Market,South,2024-10-18,Active,,Marcus Johnson
+13,Arnold Ltd,Financial Services,SMB,Northeast,2024-08-04,Active,,Ethan Walker
+474,Young-Martinez,Technology,Mid Market,Canada,2025-06-19,Active,,Sofia Martinez
+353,"Fisher, Wilson and Brown",Technology,Mid-Market,West,2025-03-05,Active,,Maya Chen
+63,Wright and Sons,Manufacturing,smb,West,2024-12-05,Churned,2025-11-27,Maya Chen
+36,Rodriguez-Graham,Technology,Enterprise,Midwest,2025-07-07,Active,,Maya Chen
+331,Torres Group,,SMB,South,2025-11-21,Churned,2026-09-14,Jordan Lee
+315,"Diaz, Anderson and Browning",Financial Services,SMB,Midwest,2024-08-18,Active,,Sofia Martinez
+160,Brown-Wall,Financial Services,SMB,West,2024-07-22,Active,,Rachel Kim
+105,Nolan and Sons,Media,SMB,South,2025-04-06,Active,,Jordan Lee
+244,Navarro-Munoz,Professional Services,SMB,Northeast,2026-07-21,Active,,Jordan Lee
+3,"Mcclain, Miller and Henderson",Manufacturing,SMB,Midwest,2026-01-03,Active,,Rachel Kim
+433,Ortiz-Morgan,Financial Services,Mid-Market,Northeast,2024-08-18,Active,,Sofia Martinez
+318,"Shaw, Nelson and Martin",Healthcare,SMB,West,2024-05-29,Churned,2025-03-22,Sofia Martinez
+188,Garcia LLC,Technology,Enterprise,West,2026-06-06,Active,,Sofia Martinez
+96,Wagner-King,Technology,SMB,Northeast,2025-11-16,active,,Daniel Brooks
+373,"Hoffman, Santiago and Jenkins",Media,Mid-Market,Midwest,2025-05-17,Active,,Marcus Johnson
+473,"Bentley, Lynch and Henderson",Manufacturing,SMB,Northeast,2025-11-13,Churned,2026-04-22,Priya Shah
+131,Spencer-Lee,Financial Services,Mid-Market,Northeast,2026-02-13,Active,,Priya Shah
+207,Holt-Torres,Manufacturing,SMB,South,2024-08-08,Active,,Daniel Brooks
+239,Jones and Sons,Media,SMB,West,2026-07-14,Active,,Jordan Lee
+338,"Wood, Ramos and Sampson",Media,SMB,South,2025-12-19,Active,,Marcus Johnson
+51,"Brooks, Lam and Hayes",Manufacturing,SMB,Northeast,2025-05-15,Active,,Sofia Martinez
+5,"Guzman, Hoffman and Baldwin",Technology,SMB,Canada,2024-12-10,Churned,2025-06-17,Daniel Brooks
+446,"Wise, Conley and Stephenson",Retail,SMB,West,2026-05-17,Active,,Daniel Brooks
+268,Baird-Sanchez,Healthcare,Mid-Market,Northeast,2024-08-29,Active,,Ethan Walker
+287,"Miller, Murphy and Craig",Technology,SMB,Midwest,2025-08-13,Active,,Sofia Martinez
+78,Yu Inc,Healthcare,Mid-Market,Midwest,2026-07-28,Active,,Daniel Brooks
+80,"Sanchez, Wheeler and Harvey",Manufacturing,Enterprise,West,2025-05-31,Active,,Rachel Kim
+19,"Adams, Zuniga and Wong",Logistics,SMB,West,2026-02-26,Churned,2026-09-15,Ethan Walker
+375,Schmitt PLC,Manufacturing,Mid-Market,Northeast,2024-02-04,Active,,Daniel Brooks
+150,Salazar-Ball,Technology,Enterprise,Northeast,2026-06-10,Churned,2026-12-17,Priya Shah
+204,Miller Ltd,Technology,Enterprise,Midwest,2025-01-20,Active,,Rachel Kim
+482,"Hartman, Romero and Smith",Financial Services,Mid-Market,Northeast,2025-01-16,Active,,Daniel Brooks
+379,"Richardson, Farmer and Andrews",Retail,SMB,West,2025-03-16,Churned,2025-09-20,Priya Shah
+125,Smith-Frost,Manufacturing,Mid-Market,Midwest,2026-08-14,Active,,Jordan Lee
+99,Walsh LLC,Healthcare,Enterprise,Canada,2024-07-22,Active,,Daniel Brooks
+310,Parsons-Hall,Media,SMB,Northeast,2024-01-20,Active,,Marcus Johnson
+236,"Hall, Baker and Moody",Manufacturing,Enterprise,Midwest,2024-06-06,Active,,Priya Shah
+374,"Pugh, Henderson and Moon",Technology,Mid-Market,West,2025-05-15,Active,,Priya Shah
+74,"Stanley, Tucker and Lee",Technology,SMB,Northeast,2024-09-07,Active,,Marcus Johnson
+227,Rowe Group,Healthcare,Enterprise,West,2025-11-26,Active,,Maya Chen
+259,Wolf-Harris,Retail,Enterprise,Northeast,2026-02-10,Active,,Jordan Lee
+263,Tran Inc,Technology,Mid-Market,Midwest,2026-04-22,Active,,Priya Shah
+162,"Smith, Gilmore and Johnston",Technology,SMB,West,2026-03-07,Active,,Maya Chen
+269,"Thomas, Lee and Greene",Technology,Enterprise,Northeast,2025-04-05,Active,,Ethan Walker
+107,Dickson-Brady,Professional Services,SMB,South,2026-06-20,Active,,Sofia Martinez
+403,Atkins PLC,Financial Services,SMB,West,2026-05-30,Active,,Priya Shah
+209,"Pierce, Bell and Chavez",Technology,Enterprise,Northeast,2026-08-26,Active,,Jordan Lee
+149,"Schmidt, Hansen and Stewart",Financial Services,Enterprise,Northeast,2026-05-15,Active,,Marcus Johnson
+4,Davis and Sons,Professional Services,Mid-Market,Northeast,2026-04-05,Active,,Priya Shah
+118,May-Ross,Technology,SMB,Midwest,2024-02-24,Churned,2026-07-31,Priya Shah
+200,"Barnett, Rogers and Snyder",Technology,SMB,West,2025-01-11,Active,,Daniel Brooks
+494,"Kennedy, Johnson and Lucas",Media,SMB,Northeast,2026-02-27,Churned,2026-07-09,Daniel Brooks
+298,Harvey-Allen,Technology,SMB,Northeast,2024-09-27,Active,,Ethan Walker
+495,Kelly-Norman,Financial Services,SMB,Northeast,2025-01-01,Active,,Jordan Lee
+421,Welch-Hogan,Healthcare,smb,West,2025-10-06,Active,,Priya Shah
+143,"Lee, Horton and Snyder",Professional Services,SMB,South,2026-08-14,Active,,Sofia Martinez
+195,"Nelson, Morton and Medina",Financial Services,SMB,Northeast,2026-09-03,Active,,Priya Shah
+334,"Avery, Horton and Fernandez",Media,Mid-Market,South,2026-01-10,Active,,Maya Chen
+435,Davis-Gregory,Retail,SMB,Canada,2025-07-09,Active,,Maya Chen
+448,Harper and Sons,Financial Services,SMB,Northeast,2026-04-28,Active,,Sofia Martinez
+437,"Marks, Cook and Aguilar",Healthcare,Enterprise,South,2026-04-16,Active,,Daniel Brooks
+266,Jimenez Ltd,Manufacturing,SMB,West,2024-02-28,Active,,Daniel Brooks
+391,"Miller, Ramos and Coleman",Media,Mid-Market,South,2026-03-03,Churned,2026-08-09,Ethan Walker
+251,Bailey-Cook,Technology,Mid-Market,Midwest,2024-09-04,Active,,Priya Shah
+426,Ford-Spencer,Healthcare,Mid-Market,West,2025-09-24,Active,,Priya Shah
+112,"Rodriguez, Brennan and Garrison",Technology,SMB,Northeast,2024-05-02,Active,,Priya Shah
+470,Blake Group,,Mid-Market,Northeast,2024-03-21,Active,,Jordan Lee
+109,Johnson-Doyle,Retail,SMB,West,2025-04-03,Churned,2026-02-13,Maya Chen
+293,"Brennan, Wallace and Benson",Financial Services,SMB,Northeast,2024-10-24,Active,,Rachel Kim
+33,"Ferrell, Rice and Maddox",Logistics,SMB,Northeast,2025-10-31,Churned,2026-07-21,Daniel Brooks
+264,Gay Inc,Technology,SMB,Midwest,2024-11-09,Active,,Marcus Johnson
+55,Jones Inc,Technology,Mid-Market,Northeast,2024-11-11,Active,,Ethan Walker
+43,Rodriguez LLC,Retail,Enterprise,Midwest,2024-02-10,Active,,Daniel Brooks
+497,Paul-Kline,Technology,Mid-Market,West,2024-12-01,Churned,2025-11-10,Priya Shah
+220,Harrison-Alexander,Manufacturing,Enterprise,Canada,2024-11-26,Active,,Ethan Walker
+387,Moore-Collins,Technology,Enterprise,Northeast,2024-05-27,Active,,Rachel Kim
+412,"Hicks, Bullock and Bailey",Healthcare,Mid-Market,Midwest,2024-02-15,Active,,Rachel Kim
+408,Kim Inc,Professional Services,SMB,West,2024-03-11,Active,,Rachel Kim
+283,Garcia-Lozano,Technology,SMB,Canada,2024-08-18,Active,,Ethan Walker
+305,Castaneda-Rodriguez,Retail,SMB,South,2025-07-30,Active,,Sofia Martinez
+133,"Carroll, Sullivan and Bass",,SMB,South,2024-12-07,Active,,Ethan Walker
+189,"Burke, Martinez and Riggs",Technology,Enterprise,South,2025-02-15,Active,,Rachel Kim
+129,Cortez LLC,Logistics,Mid-Market,West,2025-09-10,Churned,2026-04-05,Sofia Martinez
+9,Garcia-James,Healthcare,Enterprise,South,2026-05-04,Active,,Ethan Walker
+357,"Turner, Schneider and Johnson",Media,Enterprise,Midwest,2025-02-27,Active,,Sofia Martinez
+235,Warner-Gibson,Retail,Mid-Market,Midwest,2026-01-26,Active,,Maya Chen
+241,Gonzales-Harrison,Technology,SMB,Northeast,2025-09-11,Active,,Priya Shah
+77,"Woods, Calhoun and Schmidt",Logistics,Enterprise,West,2024-08-12,Active,,Priya Shah
+190,Reed Group,Logistics,SMB,Northeast,2024-03-23,Active,,Ethan Walker
+61,"Brown, Valdez and Lucas",Healthcare,Mid-Market,South,2026-03-25,Active,,Jordan Lee
+147,"Holmes, Williams and Wright",Technology,Mid-Market,West,2025-12-23,Active,,Rachel Kim
+240,Larson-Holloway,Media,Enterprise,South,2024-10-15,Active,,Rachel Kim
+360,Lam LLC,Financial Services,SMB,Northeast,2025-07-04,Active,,Marcus Johnson
+138,"Harvey, Davis and Crane",Retail,SMB,Canada,2025-03-24,Churned,2026-02-22,Marcus Johnson
+320,Brock-Mcdonald,Media,Mid-Market,West,2024-05-20,Active,,Daniel Brooks
+344,Zhang PLC,Manufacturing,Mid-Market,South,2024-01-23,Active,,Rachel Kim
+226,"Duran, Obrien and Gibbs",Financial Services,SMB,South,2025-03-25,Active,,Priya Shah
+307,"Phillips, Spence and Barrett",Manufacturing,Mid-Market,Northeast,2025-04-30,Active,,Sofia Martinez
+142,Gibson Ltd,Retail,SMB,South,2026-08-01,Active,,Priya Shah
+59,Lee-Davis,Healthcare,Mid-Market,Midwest,2026-01-22,Active,,Jordan Lee
+346,Willis and Sons,Technology,Mid-Market,West,2026-08-14,Churned,2026-12-08,Marcus Johnson
+463,Wilkerson-Arias,,Mid-Market,Midwest,2024-11-04,Active,,Jordan Lee
+271,Morgan-French,Technology,SMB,West,2025-05-26,Active,,Rachel Kim
+467,Combs Ltd,Professional Services,Mid-Market,Canada,2026-02-27,Churned,2026-06-14,Daniel Brooks
+429,Hayes LLC,Healthcare,SMB,Northeast,2025-10-12,Active,,Priya Shah
+324,"Martinez, Richardson and Curry",Media,SMB,South,2025-10-23,Active,,Maya Chen
+22,"Watts, Robinson and Nguyen",Technology,smb,South,2024-06-14,Active,,Maya Chen
+247,Johnston-Hines,Professional Services,Mid-Market,Northeast,2024-10-20,Active,,Marcus Johnson
+171,"Alvarado, Miller and Patterson",Retail,SMB,South,2025-11-19,Active,,Sofia Martinez
+179,Howell and Sons,Logistics,SMB,Midwest,2024-03-03,Active,,Rachel Kim
+286,Morgan-Schwartz,Logistics,Mid-Market,South,2026-08-04,Active,,Maya Chen
+284,Bowen Group,Financial Services,SMB,Northeast,2024-07-20,Churned,2025-11-07,Sofia Martinez
+476,Brown-Copeland,Professional Services,SMB,South,2024-03-06,Active,,Sofia Martinez
+267,Hicks-Hill,Retail,SMB,West,2024-06-12,Churned,2026-09-15,Maya Chen
+69,Russell Group,Manufacturing,SMB,South,2026-02-05,Active,,Priya Shah
+58,"Johnston, Sanchez and Kennedy",Technology,SMB,West,2024-06-30,Churned,2025-12-07,Rachel Kim
+218,Terry-Martinez,Technology,SMB,Midwest,2026-02-17,Churned,2026-12-01,Daniel Brooks
+402,Graham Group,Technology,SMB,South,2026-05-11,Active,,Rachel Kim
+400,"Hall, Hansen and Barnett",Healthcare,SMB,South,2025-05-10,Active,,Daniel Brooks
+297,"Sparks, Jackson and Miller",Healthcare,SMB,Northeast,2025-05-21,Active,,Marcus Johnson
+386,Bennett Group,Manufacturing,Enterprise,South,2025-07-10,Active,,Maya Chen
+417,Marshall-Elliott,,Mid-Market,South,2026-03-14,Active,,Jordan Lee
+311,Robinson-Lee,Manufacturing,SMB,South,2026-03-04,Active,,Marcus Johnson
+479,Mendez and Sons,Technology,SMB,West,2024-09-07,Active,,Maya Chen
+380,Bruce-Villegas,Financial Services,Mid-Market,Midwest,2024-09-15,Active,,Ethan Walker
+95,Harris-Walters,Media,SMB,Northeast,2024-02-01,Active,,Jordan Lee
+500,Acosta Inc,Technology,Mid-Market,Northeast,2026-04-30,Active,,Jordan Lee
+100,Figueroa PLC,Financial Services,Mid-Market,West,2024-11-04,Active,,Daniel Brooks
+140,Hernandez Inc,Technology,Mid-Market,Canada,2025-10-25,Active,,Priya Shah
+469,Lowery-Kennedy,Retail,Mid-Market,South,2025-12-19,Churned,2026-12-18,Rachel Kim
+24,Morales-Jones,Retail,SMB,Northeast,2026-01-19,Active,,Marcus Johnson
+68,Novak and Sons,Financial Services,SMB,South,2025-02-16,Active,,Sofia Martinez
+261,Martinez-Dudley,Healthcare,SMB,South,2026-09-06,Active,,Rachel Kim
+230,"Choi, Garcia and Farmer",Technology,Mid-Market,South,2026-09-17,Active,,Rachel Kim
+316,Burgess-Thompson,Manufacturing,Mid-Market,South,2025-05-06,Active,,Ethan Walker
+121,Johnson-Carlson,Healthcare,Mid-Market,Midwest,2024-03-02,Active,,Daniel Brooks
+102,"Mckee, Gardner and Davenport",,SMB,South,2025-03-19,Active,,Ethan Walker
+345,Jones PLC,Financial Services,SMB,Northeast,2025-03-09,Active,,Ethan Walker
+260,"Anderson, Roberts and Gilmore",Technology,Enterprise,Midwest,2024-10-06,Active,,Daniel Brooks
+456,Strickland-Shaw,Media,Mid-Market,South,2024-05-15,Churned,2026-01-28,Marcus Johnson
+217,Williams-Brown,Professional Services,SMB,South,2026-09-08,Active,,Priya Shah
+265,Valentine-Holland,Manufacturing,SMB,South,2024-02-13,Active,,Ethan Walker
+21,Gray-Mayo,Retail,Mid-Market,Northeast,2025-10-02,Active,,Sofia Martinez
+75,Novak PLC,Healthcare,Mid-Market,West,2025-08-12,Active,,Jordan Lee
+292,Good-Hodges,Healthcare,SMB,Midwest,2024-11-22,Active,,Jordan Lee
+44,Allen-Allen,,Mid-Market,Canada,2024-07-28,Active,,Ethan Walker
+53,Chapman and Sons,Financial Services,Mid-Market,West,2025-07-18,Active,,Rachel Kim
+7,Blake and Sons,Healthcare,Enterprise,Midwest,2026-04-29,Active,,Ethan Walker
+313,"Becker, Taylor and Davis",Healthcare,SMB,Canada,2025-04-15,Active,,Ethan Walker
+273,Monroe-Carpenter,Financial Services,Enterprise,Northeast,2024-03-16,Active,,Marcus Johnson
+123,"Joyce, Wilson and Lam",Healthcare,SMB,West,2025-04-26,Churned,2026-05-16,Sofia Martinez
+154,"Ramirez, Strickland and Washington",Healthcare,Mid-Market,Northeast,2025-10-10,Active,,Daniel Brooks
+161,Stein-Silva,Healthcare,SMB,South,2024-10-29,Churned,2026-12-02,Sofia Martinez
+490,Brown Group,Retail,Enterprise,West,2025-01-16,Active,,Marcus Johnson
+77,"Woods, Calhoun and Schmidt",Logistics,Enterprise,West,2024-08-12,Active,,Priya Shah
+385,"Morales, Thomas and Schultz",Financial Services,Enterprise,West,2025-12-09,Active,,Marcus Johnson
+23,Perez Inc,Technology,SMB,South,2026-05-01,Active,,Sofia Martinez
+219,Garcia-Smith,Healthcare,Mid-Market,Mid-west,2025-08-16,Active,,Marcus Johnson
+2,Doyle Ltd,Logistics,Mid-Market,Northeast,2025-03-08,Churned,2026-01-15,Maya Chen
+185,Johnston-Odonnell,Technology,Enterprise,South,2026-03-18,Active,,Jordan Lee
+442,"Osborn, Gaines and Davis",Healthcare,Mid-Market,Northeast,2024-10-10,Active,,Priya Shah
+79,"Hensley, Powell and David",Manufacturing,Mid-Market,Canada,2025-09-01,Active,,Ethan Walker
+440,Collins Group,Retail,Mid-Market,Midwest,2025-09-03,Active,,Priya Shah
+202,Peterson-Beard,Manufacturing,Mid-Market,Northeast,2024-10-06,Active,,Sofia Martinez
+26,Wilkerson-Day,Retail,smb,Midwest,2026-09-14,Active,,Jordan Lee
+50,"Harris, Collins and Carney",Professional Services,Enterprise,Northeast,2024-10-15,Active,,Jordan Lee
+491,Carter Inc,Technology,SMB,Northeast,2026-04-19,Churned,2026-12-10,Rachel Kim
+153,Green-Wright,Technology,SMB,Midwest,2026-08-01,Active,,Sofia Martinez
+145,Stafford Inc,Retail,SMB,South,2026-02-20,Active,,Rachel Kim
+321,Taylor and Sons,Financial Services,Mid-Market,Midwest,2025-06-27,Active,,Jordan Lee
+210,King-Martinez,Financial Services,Mid-Market,Northeast,2025-05-24,Active,,Rachel Kim
+98,Williams-Cook,Financial Services,SMB,Midwest,2026-08-09,Active,,Sofia Martinez
+106,"Wright, Garcia and Deleon",Manufacturing,Mid-Market,South,2025-05-21,Active,,Ethan Walker
+318,"Shaw, Nelson and Martin",Healthcare,SMB,West,2024-05-29,Churned,2025-03-22,Sofia Martinez
+354,Strickland-Palmer,Retail,SMB,South,2025-11-19,Active,,Maya Chen
+28,"Hoffman, Baker and Richards",Technology,SMB,Northeast,2024-12-12,Active,,Maya Chen
+367,Perry-Davis,Healthcare,Mid-Market,Northeast,2024-11-25,Active,,Sofia Martinez
+223,Jones-Soto,Retail,Mid-Market,South,2025-07-21,Active,,Maya Chen
+85,Smith PLC,Healthcare,SMB,Midwest,2025-03-01,Active,,Maya Chen
+221,Sheppard LLC,Healthcare,SMB,South,2024-10-08,Active,,Maya Chen
+461,Cole-Palmer,Professional Services,SMB,South,2025-03-15,Active,,Ethan Walker
+248,Ruiz Ltd,Manufacturing,SMB,South,2024-01-06,Churned,2025-08-09,Daniel Brooks
+174,Ramirez-Bean,Healthcare,SMB,Northeast,2026-08-26,Active,,Maya Chen
+48,"Martin, Rose and Obrien",Financial Services,Mid-Market,Canada,2026-04-06,Active,,
+281,"Pollard, Simpson and Johnson",Logistics,SMB,West,2025-10-17,Active,,Priya Shah
+39,Harrell LLC,,Mid-Market,West,2026-01-18,Active,,Marcus Johnson
+83,"Edwards, Baker and Anderson",Technology,SMB,South,2024-10-05,Active,,Ethan Walker
+420,Hernandez-Jones,Media,SMB,Northeast,2024-06-27,Active,,Priya Shah
+88,Suarez LLC,Media,Enterprise,South,2026-02-04,Active,,Jordan Lee
+176,Curry Inc,Professional Services,Mid-Market,Canada,2025-03-05,Active,,Priya Shah
+450,"Lamb, Martin and Kim",Healthcare,Mid-Market,Northeast,2026-05-28,Active,,Priya Shah
+335,"Newton, Moore and Perry",Financial Services,SMB,Midwest,2025-04-21,Churned,2026-12-16,Sofia Martinez
+134,Mitchell-Jordan,Financial Services,Enterprise,West,2024-10-22,Active,,Rachel Kim
+445,Lee-Cooke,Technology,Enterprise,Midwest,2024-10-11,Active,,Ethan Walker
+458,"Taylor, Wright and Davidson",Manufacturing,Mid-Market,Northeast,2025-07-30,Active,,Maya Chen
+350,Guerrero Inc,Healthcare,Enterprise,north east,2026-09-29,Active,,Jordan Lee
+18,"Flowers, Martin and Kelly",Healthcare,Mid-Market,Northeast,2025-07-20,Active,,Maya Chen
+423,Johnson-Wood,Technology,SMB,Northeast,2024-10-12,Active,,Daniel Brooks
+232,Arnold and Sons,Professional Services,Mid-Market,West,2025-12-02,Active,,Daniel Brooks
+84,"Evans, Stewart and Walton",Technology,Mid-Market,Northeast,2025-12-11,Active,,Priya Shah
+116,Ross LLC,Technology,Mid-Market,Northeast,2024-10-18,Active,,Marcus Johnson
+296,Schmidt PLC,Technology,SMB,Canada,2025-06-01,Active,,Marcus Johnson
+477,Carlson-Smith,Technology,Mid-Market,South,2025-01-03,Active,,Maya Chen
+372,"Watson, Anderson and Brown",Professional Services,SMB,South,2025-11-01,Active,,Ethan Walker
+193,Reid-Poole,Manufacturing,SMB,West,2025-07-18,Active,,Jordan Lee
+280,Hughes-Alvarado,Media,SMB,Midwest,2025-04-05,Active,,Marcus Johnson
+317,Buchanan LLC,Professional Services,Enterprise,South,2025-08-10,Active,,Rachel Kim
+352,"Morris, Thompson and Williams",,Mid-Market,South,2024-10-09,Active,,Jordan Lee
+410,Cook and Sons,Media,SMB,South,2025-02-14,Active,,Rachel Kim
+212,"Tapia, Vaughn and Lee",Healthcare,SMB,Northeast,2024-11-16,Active,,Rachel Kim
+327,Harvey PLC,Retail,SMB,Canada,2026-09-12,Active,,Sofia Martinez
+493,Robertson-Hays,Healthcare,Enterprise,West,2024-11-30,Active,,Ethan Walker
+225,Miller-Wright,Professional Services,SMB,West,2026-01-01,Active,,Daniel Brooks
+198,Ramirez Group,Logistics,SMB,Canada,2025-03-09,Active,,Maya Chen
+25,"Walter, Edwards and Rios",Retail,Enterprise,Northeast,2025-11-06,Active,,Marcus Johnson
+347,Schroeder-Kramer,Technology,SMB,Midwest,2026-01-16,Active,,Rachel Kim
+56,Jones-Young,Logistics,Mid-Market,West,2024-08-03,Active,,Jordan Lee
+132,"Bentley, Byrd and Orr",Logistics,Mid-Market,Northeast,2025-08-22,Active,,Rachel Kim
+180,Wells Inc,Media,Enterprise,West,2024-04-03,Active,,Jordan Lee
+35,"Dyer, Potter and Mack",Healthcare,SMB,West,2024-03-18,Active,,Marcus Johnson
+487,Anderson-Bell,Technology,Enterprise,Midwest,2025-10-13,Active,,Maya Chen
+108,Hancock and Sons,Technology,SMB,Northeast,2025-02-20,Active,,Marcus Johnson
+136,"Lewis, Kennedy and Santana",Retail,SMB,Canada,2025-11-04,Active,,Marcus Johnson
+6,"Gardner, Robinson and Lawrence",Healthcare,SMB,Northeast,2024-02-14,Active,,Marcus Johnson
+229,"Branch, Torres and Oliver",Manufacturing,Mid-Market,West,2026-06-13,active,,Priya Shah
+172,White-Green,Media,Mid-Market,Northeast,2024-08-27,Churned,2026-07-29,Marcus Johnson
+46,Spence PLC,Media,Enterprise,Northeast,2024-08-06,Active,,Sofia Martinez
+326,Rodriguez-Hall,Logistics,SMB,Northeast,2026-07-30,Active,,Maya Chen
+86,"Ferrell, Jones and Lewis",Logistics,SMB,Midwest,2025-12-13,Active,,Maya Chen
+464,Brown-Shaw,Professional Services,SMB,South,2024-02-25,Active,,
+178,"Williams, Johnson and Wright",Healthcare,SMB,Northeast,2025-01-06,Active,,Daniel Brooks
+427,"Huang, Cole and Pacheco",Financial Services,Mid-Market,Midwest,2024-03-27,Active,,Priya Shah
+40,"Romero, Gonzalez and Brooks",Media,SMB,Midwest,2025-07-09,Active,,Maya Chen
+395,"Estrada, Williams and Foster",Technology,SMB,Northeast,2024-11-11,Active,,Marcus Johnson
+382,"Gallegos, Adams and White",Manufacturing,SMB,West,2025-10-31,Churned,2026-08-11,Maya Chen
+255,Cordova Group,Financial Services,SMB,Mid-west,2024-04-16,Churned,2025-12-27,Ethan Walker
+54,"Robinson, Jones and Welch",Media,SMB,West,2024-06-01,Active,,Maya Chen
+471,Gilbert-Bullock,Financial Services,SMB,Midwest,2026-02-20,Active,,Daniel Brooks
+365,"Le, Lewis and Hayes",Financial Services,Enterprise,Canada,2024-01-16,Active,,Jordan Lee
+114,Torres-Pope,Financial Services,Mid-Market,South,2024-11-05,Active,,Maya Chen
+314,"Lucas, Parker and Alexander",Logistics,Mid-Market,West,2026-04-02,Active,,Sofia Martinez
+362,"Kelley, Nguyen and Vang",Retail,Enterprise,Northeast,2024-09-05,Active,,Sofia Martinez
+475,Barnes PLC,Professional Services,SMB,Northeast,2026-06-26,Active,,Daniel Brooks
+94,Campbell-Clark,Professional Services,SMB,Northeast,2026-09-01,Active,,Ethan Walker
+17,James Group,Technology,SMB,West,2025-09-02,Active,,Daniel Brooks
+455,"Valentine, Joyce and Murray",Retail,SMB,Midwest,2025-03-31,Churned,2026-06-15,Maya Chen
+201,White-Lewis,Professional Services,Mid-Market,West,2026-09-24,Active,,Maya Chen
+294,Williams Inc,Media,smb,West,2026-04-13,Active,,Ethan Walker
+396,"Brown, Harris and Dougherty",Technology,SMB,Northeast,2025-04-04,Churned,2025-10-02,Rachel Kim
+389,Ware and Sons,Healthcare,Mid-Market,West,2026-03-20,Active,,Daniel Brooks
+66,Morton-Chase,Technology,SMB,South,2025-06-16,Active,,
+151,"Simmons, Meadows and Griffin",Financial Services,Enterprise,West,2025-10-27,Active,,Daniel Brooks
+158,Mccarthy Inc,Healthcare,Mid-Market,Midwest,2026-07-09,Active,,Marcus Johnson
+194,"Hernandez, Thompson and Boyd",Healthcare,Enterprise,West,2025-02-12,Active,,Rachel Kim
+376,Bell-Lane,Professional Services,Mid-Market,South,2026-05-12,Churned,2026-09-17,Jordan Lee
+302,Jones LLC,Retail,SMB,Midwest,2024-02-16,Churned,2025-12-08,Maya Chen
+341,Lopez-Martinez,Financial Services,Enterprise,Midwest,2024-06-17,Active,,Ethan Walker
+115,Walker Ltd,Technology,SMB,Northeast,2024-10-26,Active,,Priya Shah
+183,"Higgins, Strickland and Martin",Professional Services,SMB,West,2025-09-02,Active,,Maya Chen
+394,Gregory-Watkins,Technology,Mid-Market,Northeast,2025-12-29,Active,,Priya Shah
+356,"Williams, Logan and Camacho",Logistics,SMB,Midwest,2025-08-14,Active,,Ethan Walker
+288,"James, Stewart and Higgins",Healthcare,Mid-Market,Midwest,2025-05-24,Active,,Sofia Martinez
+483,Williams-Hughes,Technology,Enterprise ,West,2024-02-17,Churned,2026-04-22,Rachel Kim
+425,Gilbert PLC,Retail,Enterprise,Midwest,2025-09-03,Active,,
+333,Price LLC,Financial Services,SMB,Northeast,2024-09-24,Active,,Rachel Kim
+250,"Graham, Olsen and Costa",Technology,SMB,Northeast,2025-10-16,Churned,2026-09-26,Marcus Johnson
+328,Herman-Walker,Retail,SMB,Northeast,2024-12-09,Active,,Sofia Martinez
+224,Hernandez PLC,Manufacturing,Mid-Market,South,2025-05-02,Active,,Priya Shah
+81,Sandoval-Cunningham,Logistics,Mid-Market,West,2025-05-01,Active,,Marcus Johnson
+70,Hancock Inc,Retail,SMB,Northeast,2024-10-20,Active,,Jordan Lee
+388,Frank-Bradley,Retail,SMB,Midwest,2026-05-19,Active,,Rachel Kim
+155,Hill Inc,Logistics,Mid-Market,Northeast,2026-03-26,Active,,Maya Chen
+173,Lewis-Murphy,Manufacturing,SMB,Midwest,2025-10-12,Active,,Marcus Johnson
+447,Stanley PLC,Manufacturing,SMB,South,2024-03-05,Active,,Rachel Kim
+384,Kane PLC,Financial Services,Mid-Market,Canada,2026-09-24,Active,,Daniel Brooks
+203,"Beard, Peters and Black",Technology,SMB,north east,2025-11-04,Churned,2026-12-23,Rachel Kim
+340,"Winters, Newman and Brown",Healthcare,Mid-Market,West,2024-04-24,Active,,Maya Chen
+383,"Farmer, Dorsey and Bell",Retail,SMB,Midwest,2025-12-20,Churned,2026-10-28,Priya Shah
+192,Short-Garcia,Financial Services,Mid-Market,Midwest,2025-03-16,Active,,Daniel Brooks
+38,"Baker, Mason and White",Technology,SMB,South,2025-02-03,Active,,Sofia Martinez
+187,Vargas Ltd,Professional Services,SMB,Midwest,2024-04-21,Active,,Marcus Johnson
+398,Wilson-Jimenez,Technology,SMB,West,2026-07-15,Active,,Jordan Lee
+57,"Washington, Ryan and Cummings",Retail,SMB,West,2026-09-24,Active,,Priya Shah
+424,Jones-Lin,Retail,Mid-Market,South,2024-07-20,Churned,2026-11-18,Marcus Johnson
+441,"Conner, Li and Santiago",Financial Services,Mid-Market,Northeast,2026-05-28,Active,,Daniel Brooks
+301,Santana-Byrd,,SMB,South,2026-08-19,Active,,Ethan Walker
+76,"Daniels, Adkins and Brown",Healthcare,SMB,Northeast,2025-12-05,Active,,Maya Chen
+12,Dudley Group,,Mid-Market,West,2026-05-13,Active,,Maya Chen
+31,Burton Ltd,Technology,SMB,Canada,2025-08-07,Active,,Marcus Johnson
+166,"Hurst, Freeman and Nelson",Technology,Mid-Market,South,2026-02-04,Active,,Rachel Kim
+428,"Lopez, Jacobs and Mason",Technology,SMB,South,2024-05-24,Active,,Rachel Kim
+368,Edwards-Scott,Healthcare,Mid-Market,Northeast,2025-06-09,Active,,Marcus Johnson
+175,King-Miller,Technology,SMB,West,2024-05-18,Active,,Rachel Kim
+67,Williams PLC,Manufacturing,SMB,South,2024-11-17,Active,,Daniel Brooks
+104,Nolan-Flynn,Professional Services,Enterprise,South,2026-04-25,Active,,Sofia Martinez
+315,"Diaz, Anderson and Browning",Financial Services,SMB,Midwest,2024-08-18,Active,,Sofia Martinez
+170,Meadows PLC,Media,Mid-Market,Canada,2026-04-03,Churned,2026-10-11,
+1,"Rodriguez, Figueroa and Sanchez",Technology,Mid-Market,South,2024-08-16,Active,,Priya Shah
+245,Davis Ltd,Media,Enterprise,South,2025-02-09,Active,,Ethan Walker
+488,Li-Thompson,Manufacturing,SMB,West,2026-01-14,Churned,2026-08-13,Sofia Martinez
+11,Blair PLC,Professional Services,SMB,Northeast,2025-01-23,Active,,Sofia Martinez
+436,King-York,Financial Services,SMB,South,2026-01-23,Active,,Jordan Lee
+309,"Beltran, Lozano and Mcgee",Manufacturing,SMB,Midwest,2026-05-11,Churned,2026-10-10,Rachel Kim
+449,White Ltd,Retail,Mid-Market,South,2024-12-17,Churned,2026-12-18,Maya Chen
+438,Rangel LLC,Professional Services,Enterprise,Northeast,2026-04-10,Active,,Ethan Walker
+47,Anderson Group,Technology,SMB,Northeast,2024-10-18,Active,,Priya Shah
+20,"Reid, Ferguson and Sanchez",Technology,SMB,West,2026-01-06,Active,,Sofia Martinez
+252,"Garcia, Martin and Jenkins",Healthcare,SMB,Midwest,2024-07-10,Active,,Daniel Brooks
+90,"Turner, Riggs and Roman",Logistics,Mid-Market,Canada,2025-06-30,Active,,Maya Chen
+159,Russell-Daniels,Technology,Mid-Market,South,2024-12-19,Active,,Sofia Martinez
+278,"Reyes, Chase and Jenkins",Professional Services,SMB,Midwest,2025-09-18,Churned,2026-07-08,Daniel Brooks
+253,Roberts-Landry,Media,SMB,Midwest,2026-03-16,Active,,Maya Chen
+97,Davis Group,Manufacturing,SMB,West,2024-06-20,Active,,Daniel Brooks
+414,Thomas and Sons,Retail,Mid-Market,West,2024-08-14,Active,,Marcus Johnson
+73,Henderson-Bernard,Manufacturing,Mid-Market,Northeast,2026-09-01,Active,,Jordan Lee
+289,Brennan-Johnson,Financial Services,SMB,West,2025-02-19,Active,,Sofia Martinez
+291,Bright-Francis,Logistics,SMB,South,2026-05-31,Active,,Ethan Walker
+181,"Gould, Marshall and Scott",Technology,Mid-Market,West,2024-09-06,Active,,Priya Shah
+359,Henry Group,Healthcare,SMB,Midwest,2025-01-25,Active,,Ethan Walker
+361,"Hernandez, Martinez and Weber",Logistics,SMB,Northeast,2025-04-19,Active,,Maya Chen
+15,Williams and Sons,Professional Services,Mid-Market,South,2025-08-20,Active,,Rachel Kim
+303,"Evans, Hayden and Vaughn",Retail,Mid-Market,Northeast,2026-07-03,Active,,Priya Shah
+453,Young-Allen,Logistics,SMB,Northeast,2025-02-09,Active,,Sofia Martinez
+358,Boone-Simmons,Retail,Mid-Market,West,2024-06-28,Active,,Rachel Kim
+439,"Hale, Myers and Larson",Healthcare,Mid-Market,Midwest,2026-03-14,Active,,Jordan Lee
+413,"Mullen, Brewer and Hernandez",Professional Services,SMB,Northeast,2024-04-10,Active,,Sofia Martinez
+163,Smith-Bell,Professional Services,Mid-Market,West,2026-03-05,Active,,Jordan Lee
+304,Bruce-Gonzalez,Technology,Mid-Market,Canada,2026-01-27,Active,,Sofia Martinez
+122,Chandler-Edwards,Financial Services,SMB,Midwest,2024-06-09,Churned,2025-03-18,Jordan Lee
+91,"Smith, Montoya and Evans",Manufacturing,Mid-Market,Northeast,2025-03-14,Active,,Priya Shah
+89,Moore-Bass,Retail,SMB,SOUTH,2025-11-15,Active,,Rachel Kim
+430,"Miller, Lucas and Williams",Technology,SMB,South,2025-04-06,Active,,Maya Chen
+182,Jackson-Lawson,Professional Services,SMB,Mid-west,2025-08-23,Active,,Jordan Lee
+472,Scott and Sons,Media,SMB,Northeast,2024-09-07,Active,,Daniel Brooks
+489,"Marshall, Dominguez and Welch",Media,SMB,Canada,2024-05-25,Churned,2025-08-26,Sofia Martinez
+434,"Williams, Mccoy and Cook",Professional Services,SMB,West,2025-07-16,Active,,
+295,Howard-Jordan,Technology,Mid-Market,Northeast,2025-06-11,Active,,Marcus Johnson
+462,Davis-Lozano,Manufacturing,SMB,Northeast,2025-09-07,Active,,Sofia Martinez
+392,"Ramos, Nelson and Fischer",Healthcare,Mid-Market,Northeast,2025-07-20,Active,,Rachel Kim
+29,"Ross, Robinson and Bright",Financial Services,SMB,Northeast,2025-10-08,Active,,Maya Chen
+378,Boone LLC,Retail,SMB,South,2024-01-18,Active,,Sofia Martinez
+406,Jackson-Meza,Professional Services,SMB,South,2026-08-12,Active,,Jordan Lee
+418,"Cole, Glass and Cunningham",Technology,SMB,West,2025-04-08,Churned,2025-08-21,Ethan Walker
+274,"Burns, Hernandez and Ryan",Media,Mid-Market,West,2026-09-17,Active,,Ethan Walker
+137,"Jackson, Miller and Robertson",Healthcare,SMB,West,2025-10-02,Active,,Marcus Johnson
+124,Scott Ltd,Manufacturing,Mid-Market,South,2025-12-04,Active,,Jordan Lee
+337,Crosby-Ramirez,Healthcare,Enterprise,Northeast,2026-09-07,Active,,Priya Shah
+127,Diaz Inc,Retail,Mid-Market,West,2026-08-01,Active,,Sofia Martinez
+52,Walker LLC,Technology,Mid-Market,South,2024-10-10,Churned,2025-05-21,Maya Chen
+82,Donovan-Harris,Manufacturing,SMB,West,2025-06-17,Active,,Marcus Johnson
+120,White-Estes,Financial Services,Mid-Market,Midwest,2025-04-06,Active,,Marcus Johnson
+300,Estrada-Nolan,Retail,SMB,West,2024-10-13,Churned,2025-04-20,Daniel Brooks
+393,Reed Inc,Manufacturing,Mid-Market,Northeast,2025-09-25,Active,,Sofia Martinez
+478,"Andrews, Higgins and Carter",Healthcare,Mid-Market,Northeast,2024-04-15,Active,,Daniel Brooks
+272,Hoover-Campbell,Professional Services,SMB,West,2024-08-07,Active,,Sofia Martinez
+242,Lyons-Bender,Retail,SMB,South,2026-08-14,Active,,Daniel Brooks
+415,Morrison Ltd,,SMB,West,2024-06-03,Active,,
+30,"Snyder, Campos and Callahan",Logistics,Enterprise,Northeast,2024-08-31,Active,,Sofia Martinez
+496,"Rivera, Martinez and Richardson",Logistics,SMB,Northeast,2026-04-06,Active,,Sofia Martinez
+399,Thompson-James,Healthcare,SMB,Northeast,2024-11-04,Active,,Sofia Martinez
+416,Thompson Ltd,Financial Services,SMB,Canada,2024-03-28,Active,,Daniel Brooks
+459,Spencer-Garcia,Healthcare,SMB,Northeast,2026-02-05,Active,,Priya Shah
+16,Galloway-Wyatt,Technology,Enterprise,SOUTH,2026-02-12,Active,,Maya Chen
+113,Gonzalez Group,Financial Services,Mid-Market,Midwest,2026-02-17,Active,,Sofia Martinez
+306,Armstrong-Andrews,Financial Services,SMB,Northeast,2025-03-02,Active,,Sofia Martinez
+164,Castaneda-Ashley,Manufacturing,SMB,Midwest,2025-11-25,Active,,Priya Shah
+14,"Mcclure, Ward and Lee",Logistics,SMB,Midwest,2024-05-26,Churned,2026-07-29,Sofia Martinez
+93,Newton and Sons,Financial Services,Enterprise,Canada,2025-03-07,Active,,Sofia Martinez
+139,Chambers and Sons,Financial Services,Mid-Market,Northeast,2025-02-21,Active,,Daniel Brooks
+199,Christensen PLC,Healthcare,Mid-Market,Midwest,2024-08-05,Active,,Priya Shah
+165,Medina-Navarro,Manufacturing,Enterprise,South,2025-03-27,Active,,Maya Chen
+258,Dean-Jimenez,Technology,SMB,Northeast,2026-08-13,Active,,Sofia Martinez
+290,Young Ltd,Technology,Mid-Market,South,2025-04-20,Active,,Jordan Lee
+468,Moody-Taylor,Financial Services,SMB,Canada,2026-08-29,Active,,Rachel Kim
+177,Walker-Jones,Professional Services,Mid-Market,Midwest,2026-08-19,Churned,2026-12-10,Sofia Martinez
+249,Moon-White,Retail,Mid-Market,West,2025-06-24,Churned,2026-02-16,Rachel Kim
+480,"Butler, Beck and Miller",Technology,SMB,Canada,2026-05-28,Active,,Maya Chen
+484,King-Smith,Professional Services,Enterprise,South,2024-03-29,Churned,2025-07-25,Marcus Johnson
+499,"Jimenez, Glass and Stone",Media,SMB,West,2025-07-23,Churned,2025-12-12,Jordan Lee
+184,Rodriguez-Johnson,Media,Enterprise,Midwest,2026-03-28,Active,,Priya Shah
+366,Gutierrez Group,Technology,Enterprise,Canada,2025-05-05,Active,,Jordan Lee
+401,Jones-Hensley,Professional Services,Enterprise,South,2025-09-23,Active,,Jordan Lee
+196,Marshall-Petersen,Technology,SMB,north east,2025-03-18,Active,,Daniel Brooks
+10,Abbott-Munoz,Manufacturing,SMB,West,2025-11-30,Active,,Daniel Brooks
+407,Collier-Gillespie,Manufacturing,Mid-Market,Midwest,2026-09-02,Active,,Marcus Johnson
+279,Garner-Thornton,Manufacturing,Enterprise,Midwest,2026-02-26,Active,,Rachel Kim
+411,Dixon Inc,Healthcare,Mid-Market,West,2025-07-03,Churned,2026-02-05,Daniel Brooks
+323,"Diaz, Gibbs and Smith",,Enterprise,Midwest,2026-06-20,Active,,Marcus Johnson
+128,"Mccall, Hanson and Alvarado",Financial Services,SMB,South,2024-10-05,Active,,Marcus Johnson
+270,"Suarez, Shields and Hill",Retail,Mid-Market,Midwest,2025-02-11,Active,,Ethan Walker
+409,"Miller, Harrell and Reese",Financial Services,SMB,Northeast,2024-06-06,Active,,Rachel Kim
+453,Young-Allen,Logistics,SMB,Northeast,2025-02-09,Active,,Sofia Martinez
+330,"Turner, Ortiz and Taylor",Financial Services,Mid-Market,West,2025-10-25,Active,,Sofia Martinez
+103,"Tran, Jordan and Williams",Manufacturing,Mid-Market,South,2026-01-21,Active,,Sofia Martinez
+215,Perez-White,Healthcare,SMB,South,2024-03-21,Active,,Rachel Kim
+71,Gray Group,Manufacturing,Mid-Market,South,2025-03-28,Active,,Jordan Lee
+197,"Adams, Christian and Rivas",Technology,SMB,Northeast,2026-09-06,Active,,Ethan Walker
+144,Hernandez Ltd,Financial Services,SMB,Midwest,2025-11-06,active,,Marcus Johnson
+45,"Arroyo, Miller and Tucker",Manufacturing,SMB,South,2024-11-19,Churned,2026-11-15,Daniel Brooks
+32,Carlson-Cruz,Healthcare,SMB,Northeast,2025-11-05,Active,,Rachel Kim
+246,"Matthews, Smith and Hubbard",Healthcare,Enterprise,Northeast,2026-08-11,Active,,Daniel Brooks
+282,"Sanford, Rivera and Garcia",Retail,SMB,West,2026-05-01,Active,,Daniel Brooks
+452,Bishop-Goodwin,Logistics,SMB,West,2024-04-05,Active,,Ethan Walker
+211,Stewart Ltd,Manufacturing,SMB,Midwest,2026-05-03,Churned,2026-08-11,Ethan Walker
+256,"Bryan, Smith and Booth",Professional Services,Mid-Market,Northeast,2026-03-08,Active,,Marcus Johnson
+152,Manning Group,Logistics,Enterprise,South,2024-11-20,Active,,Marcus Johnson
+332,Davis PLC,Retail,Mid-Market,Northeast,2025-11-16,Active,,Daniel Brooks
+126,"Mcdaniel, Bentley and Mclaughlin",Manufacturing,Mid-Market,West,2026-04-26,Churned,2026-09-05,Priya Shah

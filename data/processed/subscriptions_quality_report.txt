@@ -1,0 +1,33 @@
+CLOUDPATH ANALYTICS - SUBSCRIPTIONS DATA QUALITY REPORT
+=================================================================
+
+RAW DATA
+Raw rows: 988
+Exact duplicate rows: 8
+Inconsistent plan values: 10
+Inconsistent billing values: 19
+Inconsistent status values: 14
+
+CLEANED DATA
+Clean rows: 980
+Unique subscription IDs: 980
+Invalid plan values: 0
+Invalid billing values: 0
+Invalid status values: 0
+Business rule violations: 0
+
+CURRENT RECURRING REVENUE
+Active subscriptions: 426
+Current MRR: $1,574,850.00
+Current ARR: $18,898,200.00
+
+CLEANING ACTIONS
+- Removed exact duplicate records
+- Standardized plan names
+- Standardized billing-frequency values
+- Standardized subscription-status values
+- Validated account foreign keys
+- Validated subscription dates
+- Validated MRR values
+- Checked subscription periods for overlap
+- Validated final subscription status against customer status

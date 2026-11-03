@@ -1,0 +1,32 @@
+CLOUDPATH ANALYTICS - ACCOUNTS DATA QUALITY REPORT
+============================================================
+
+RAW DATA
+Raw rows: 506
+Exact duplicate rows: 6
+Missing industry values: 20
+Missing CSM assignments: 7
+Inconsistent segment values: 10
+Inconsistent region values: 10
+Inconsistent status values: 5
+
+CLEANED DATA
+Clean rows: 500
+Unique account IDs: 500
+Missing industry values retained: 20
+Missing CSM assignments retained: 7
+Invalid segment values: 0
+Invalid region values: 0
+Invalid status values: 0
+Business rule violations: 0
+
+CLEANING ACTIONS
+- Removed exact duplicate records
+- Standardized segment labels
+- Standardized region labels
+- Standardized customer status labels
+- Trimmed unnecessary whitespace
+- Retained missing industry values for later analysis
+- Retained missing CSM assignments for later analysis
+- Validated signup and churn dates
+- Validated customer status and churn-date consistency

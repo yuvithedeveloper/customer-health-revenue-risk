@@ -1,0 +1,40 @@
+CLOUDPATH ANALYTICS - SUPPORT TICKET DATA QUALITY REPORT
+=================================================================
+
+RAW DATA
+Raw rows: 3807
+Exact duplicate rows: 15
+Inconsistent priority values: 12
+Inconsistent category values: 10
+Inconsistent status values: 12
+Negative resolution-hour rows: 8
+Invalid CSAT rows: 7
+
+CLEANED DATA
+Clean rows: 3792
+Unique ticket IDs: 3792
+Accounts with at least one support ticket: 488
+Resolved tickets: 3457
+Open tickets: 129
+In Progress tickets: 206
+Invalid priority values remaining: 0
+Invalid category values remaining: 0
+Invalid status values remaining: 0
+Negative resolution-hour rows remaining: 0
+Invalid CSAT rows remaining: 0
+Business rule violations: 0
+
+SUPPORT METRICS
+Average resolution hours: 28.17
+Average CSAT for scored resolved tickets: 4.23
+
+CLEANING ACTIONS
+- Removed exact duplicate records
+- Standardized priority values
+- Standardized support categories
+- Standardized ticket-status values
+- Converted invalid negative resolution-hour values to positive durations
+- Capped invalid CSAT values to the valid 1-5 range
+- Validated account foreign keys
+- Validated created dates against customer signup and churn dates
+- Validated resolved-ticket and unresolved-ticket business rules

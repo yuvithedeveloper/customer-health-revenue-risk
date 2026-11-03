@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and secret files
+.env
+.env.*
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL / local database files
+*.log
+
+# Power BI temporary / cache files
+*.pbit.tmp
+*.pbix.tmp
+
+# Local temporary files
+*.tmp
+~$*
+
+# Optional local exports
+exports/
+temp/
