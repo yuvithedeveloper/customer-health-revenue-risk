@@ -1,10 +1,27 @@
 # Customer Health & Revenue Risk Analytics
 
-An end-to-end analytics portfolio project that simulates how a B2B SaaS company can identify customer health deterioration, estimate recurring revenue exposure, prioritize Customer Success interventions, and monitor retention performance.
+An end-to-end analytics portfolio project that simulates how a B2B SaaS company can identify declining customer health, estimate recurring revenue exposure, prioritize Customer Success interventions, and monitor retention performance.
 
-The project combines **PostgreSQL, SQL, Python, Power BI, and DAX** to turn six operational datasets into an explainable customer-health and revenue-risk decision system.
+The project combines **PostgreSQL, SQL, Python, Power BI, and DAX** to transform operational customer data into an explainable customer-health and revenue-risk decision system.
 
 > **Note:** All customer and business data in this project is synthetic and was generated specifically for analytical practice.
+
+---
+
+## Project Snapshot
+
+| Metric | Result |
+|---|---:|
+| Active Customer Accounts | 426 |
+| Annual Recurring Revenue | $18.90M |
+| Gross ARR Exposed | $6.64M |
+| Estimated Revenue at Risk | $2.32M |
+| Critical / High Priority Accounts | 48 |
+| 2026 Net Revenue Retention | 97.42% |
+
+### Dashboard Preview
+
+![Customer Health & Revenue Risk Executive Dashboard](images/01_executive_overview.png)
 
 ---
 
@@ -12,10 +29,10 @@ The project combines **PostgreSQL, SQL, Python, Power BI, and DAX** to turn six 
 
 CloudPath Analytics is a fictional B2B SaaS company that provides operational analytics, dashboards, alerts, workflow monitoring, and reporting tools.
 
-The Customer Success organization needs to answer several questions:
+The Customer Success organization needs to answer several business questions:
 
 - Which customers are showing signs of declining health?
-- What signals are contributing to customer risk?
+- What factors are contributing to customer risk?
 - How much recurring revenue is associated with customers requiring attention?
 - Which accounts should Customer Success contact first?
 - Which customers are approaching renewal?
@@ -31,12 +48,12 @@ The primary stakeholder for the analysis is the **VP of Customer Success**, with
 
 The project was designed to:
 
-1. Build a relational PostgreSQL database representing a realistic B2B SaaS customer environment.
-2. Generate and clean synthetic operational data with realistic quality issues.
+1. Build a relational PostgreSQL database representing a realistic B2B SaaS environment.
+2. Generate and clean synthetic operational data with realistic data-quality issues.
 3. Develop reusable SQL analysis for customer health and revenue risk.
 4. Create an explainable Customer Health Score using multiple business signals.
 5. Estimate scenario-based Revenue at Risk.
-6. Prioritize Customer Success interventions using account health, ARR, and renewal timing.
+6. Prioritize Customer Success interventions using health, ARR, and renewal timing.
 7. Analyze Logo Retention, Gross Revenue Retention, and Net Revenue Retention.
 8. Create a five-page Power BI dashboard for executive and operational decision-making.
 
@@ -45,12 +62,40 @@ The project was designed to:
 ## Technology Stack
 
 - **PostgreSQL** — relational database and analytical SQL
-- **SQL** — joins, CTEs, CASE logic, window functions, aggregations, views, cohort and retention analysis
+- **SQL** — joins, CTEs, CASE logic, window functions, aggregations, views, cohort analysis, and retention analysis
 - **Python** — synthetic data generation and data cleaning
 - **Faker** — synthetic customer and operational records
-- **Power BI** — data model, dashboards, interactive filtering, and visualization
-- **DAX** — business measures and dashboard KPIs
+- **Power BI** — dashboard development, interactive filtering, and visualization
+- **DAX** — business measures, KPI calculations, and dashboard logic
 - **Git / GitHub** — version control and portfolio documentation
+
+---
+
+## End-to-End Workflow
+
+```text
+Business Problem
+        ↓
+Synthetic Data Generation
+        ↓
+Data Cleaning & Validation
+        ↓
+PostgreSQL Database
+        ↓
+Exploratory SQL Analysis
+        ↓
+Customer Health Scoring
+        ↓
+Revenue-at-Risk Modeling
+        ↓
+Customer Success Prioritization
+        ↓
+Retention & Revenue Analysis
+        ↓
+Power BI Dashboard
+        ↓
+Business Recommendations
+```
 
 ---
 
@@ -141,7 +186,7 @@ The final PostgreSQL database contains:
 
 The primary analytical period is **January 2025 through December 2026**.
 
-The current December 2026 snapshot contains:
+The December 2026 snapshot contains:
 
 - **426 active customer accounts**
 - **$1.57M monthly recurring revenue**
@@ -171,7 +216,7 @@ A final database-validation layer checks:
 - primary-key uniqueness
 - foreign-key integrity
 - account and subscription consistency
-- usage constraints
+- product-usage constraints
 - support-ticket rules
 - invoice rules
 - Customer Success interaction rules
@@ -195,18 +240,18 @@ The Customer Health Score combines six explainable business components.
 Accounts are classified into:
 
 - **Healthy:** 75–100
-- **Monitor:** 55–74
+- **Monitor:** 55–74.99
 - **At Risk:** below 55
 
 Current results:
 
-| Health Status | Accounts |
-|---|---:|
-| Healthy | 273 |
-| Monitor | 129 |
-| At Risk | 24 |
+| Health Status | Accounts | Share |
+|---|---:|---:|
+| Healthy | 273 | 64.08% |
+| Monitor | 129 | 30.28% |
+| At Risk | 24 | 5.63% |
 
-The model is intentionally explainable and designed as Customer Success decision support rather than a black-box churn prediction model.
+The framework is intentionally explainable and designed as Customer Success decision support rather than a black-box churn-prediction model.
 
 ---
 
@@ -222,34 +267,46 @@ ARR associated with customers requiring Customer Success attention.
 
 ### Estimated Revenue at Risk
 
-A scenario-based estimate that applies different revenue-exposure assumptions according to customer health.
+A scenario-based estimate that applies different exposure assumptions according to customer health.
 
 **Estimated Revenue at Risk: approximately $2.32M**
 
-This value is used for prioritization and should not be interpreted as a guaranteed churn forecast.
+This metric is used for prioritization and should not be interpreted as a guaranteed churn forecast.
 
 ---
 
 ## Customer Success Prioritization
 
-A separate prioritization model determines which customers Customer Success should contact first.
+A separate prioritization model determines which accounts Customer Success should review first.
 
-The model considers:
+The model combines:
 
 - customer health severity
+- renewal urgency
 - account ARR
-- renewal timing
 - modeled revenue exposure
 
 The current model identifies:
 
 **48 Critical or High priority accounts**
 
-This allows the Customer Success team to distinguish between:
+This allows Customer Success to distinguish between customers requiring immediate intervention and customers where preventive action can still be taken before renewal.
 
-- customers requiring immediate intervention,
-- accounts that need structured monitoring,
-- and customers where preventive adoption work can still be performed before renewal.
+---
+
+## Primary Risk Drivers
+
+Among the **153 accounts requiring Customer Success attention**, the primary risk drivers are:
+
+| Primary Risk Driver | Accounts |
+|---|---:|
+| Product Usage | 90 |
+| Usage Trend | 25 |
+| Customer Engagement | 22 |
+| Support Health | 11 |
+| Payment Health | 5 |
+
+Product Usage alone represents approximately **$1.46M in modeled Revenue at Risk**, making it the largest risk driver in the analysis.
 
 ---
 
@@ -276,11 +333,11 @@ Retention weakened in 2026 despite stronger expansion activity because churned r
 
 ### 2026 Retention by Segment
 
-| Segment | GRR | NRR |
-|---|---:|---:|
-| Enterprise | 97.70% | 103.54% |
-| Mid-Market | 89.47% | 93.79% |
-| SMB | 87.16% | 91.47% |
+| Segment | Logo Retention | GRR | NRR |
+|---|---:|---:|---:|
+| Enterprise | 98.11% | 97.70% | 103.54% |
+| Mid-Market | 90.60% | 89.47% | 93.79% |
+| SMB | 87.79% | 87.16% | 91.47% |
 
 Enterprise is the only segment with NRR above 100%.
 
@@ -288,43 +345,108 @@ Enterprise is the only segment with NRR above 100%.
 
 ## Key Business Findings
 
-### Product usage is the dominant risk driver
+### 1. More than one-third of active accounts require attention
+
+Of the 426 active customer accounts:
+
+- 273 are Healthy
+- 129 are Monitor
+- 24 are At Risk
+
+This means **153 accounts, or approximately 36% of the active customer base**, require some level of Customer Success attention.
+
+---
+
+### 2. Product Usage is the dominant risk driver
 
 Product Usage is the primary risk driver for **90 of the 153 accounts requiring action**.
 
 Approximately **$1.46M of modeled Revenue at Risk** is associated with Product Usage.
 
-This suggests that adoption problems may provide an earlier warning signal than billing problems alone.
+This suggests that customer behavior may provide an earlier warning signal than payment problems alone.
 
-### Customer risk exists well before renewal
+---
 
-Revenue exposure exists across every renewal horizon.
+### 3. Health score alone is not enough for prioritization
 
-A substantial amount of modeled revenue exposure belongs to accounts more than six months away from renewal.
+The prioritization model identifies **48 Critical or High priority accounts** by combining health severity, account value, and renewal timing.
 
-This supports proactive adoption programs rather than waiting until customers enter the final renewal window.
+An account with moderate health but high ARR and an upcoming renewal may therefore require action before a lower-value account with a worse health score.
 
-### Mid-Market creates the largest absolute churn impact
+---
 
-In 2026, approximately:
+### 4. Revenue exposure exists well before renewal
 
-- Mid-Market churned MRR: **$46K**
-- SMB churned MRR: **$29K**
-- Enterprise churned MRR: **$9K**
+Estimated Revenue at Risk is distributed across multiple renewal horizons.
 
-SMB has weaker retention percentages, while Mid-Market generates the largest absolute recurring-revenue loss.
+Approximately:
 
-### Enterprise customers retain and expand more effectively
+| Renewal Window | Estimated Revenue at Risk |
+|---|---:|
+| 0–30 days | $0.13M |
+| 31–60 days | $0.18M |
+| 61–90 days | $0.28M |
+| 91–180 days | $0.42M |
+| 181–270 days | $0.65M |
+| 271+ days | $0.66M |
 
-Enterprise NRR reached approximately **103.54%** in 2026.
+A significant amount of exposed revenue belongs to accounts more than six months away from renewal.
 
-This suggests that the company should investigate whether successful Enterprise Customer Success practices can be adapted for other segments.
+This supports proactive adoption intervention rather than waiting until the final renewal window.
 
-### Support demand increased over time
+---
 
-Product usage recovered during 2026, but support-ticket volume and High/Critical ticket volume also generally increased.
+### 5. Retention weakened in 2026
 
-This suggests that support capacity should be monitored alongside product adoption.
+Between 2025 and 2026:
+
+- Logo Retention declined from **91.67% to 90.35%**
+- GRR declined from **94.05% to 92.47%**
+- NRR declined from **99.27% to 97.42%**
+
+Expansion increased during 2026, but higher churn and contraction prevented NRR from exceeding 100%.
+
+---
+
+### 6. Enterprise customers show stronger retention
+
+Enterprise customers achieved:
+
+- **97.70% GRR**
+- **103.54% NRR**
+
+Mid-Market and SMB both remained below 100% NRR.
+
+This suggests that Enterprise customers are both more resilient and more capable of generating expansion revenue.
+
+---
+
+### 7. Mid-Market creates the largest absolute churn impact
+
+Approximate 2026 churned MRR:
+
+- Mid-Market: **$46K**
+- SMB: **$29K**
+- Enterprise: **$9K**
+
+SMB has weaker retention percentages, but Mid-Market generates the greatest absolute recurring-revenue loss.
+
+This shows why percentage-based retention metrics and absolute financial impact should be evaluated together.
+
+---
+
+### 8. Product adoption recovered while support demand increased
+
+By December 2026:
+
+- Active User Rate: **65.4%**
+- Feature Adoption: **72.7%**
+- Average Resolution Time: **27.1 hours**
+- Average CSAT: **4.24**
+
+Usage recovered during 2026, while support-ticket volume and High/Critical ticket volume generally increased over the analysis period.
+
+This indicates that support capacity should be monitored as product adoption grows.
 
 ---
 
@@ -337,7 +459,7 @@ Based on the analysis, CloudPath Analytics should:
 3. Launch proactive adoption programs for customers showing weak Product Usage or Usage Trend signals.
 4. Focus Mid-Market retention initiatives on reducing absolute recurring-revenue loss.
 5. Develop scalable onboarding and lifecycle programs for SMB customers.
-6. Study successful Enterprise retention and expansion patterns.
+6. Study successful Enterprise retention and expansion patterns for practices that could be adapted to other segments.
 7. Monitor support capacity as product adoption increases.
 8. Track Health Score, Revenue at Risk, renewal exposure, GRR, NRR, and Logo Retention together.
 
@@ -345,13 +467,13 @@ Based on the analysis, CloudPath Analytics should:
 
 ## Power BI Dashboard
 
-The Power BI report contains five pages.
+The final Power BI report contains five pages.
 
 ### 1. Executive Overview
 
 Provides an executive view of:
 
-- active customers
+- active customer accounts
 - current ARR
 - average health score
 - estimated Revenue at Risk
@@ -361,6 +483,8 @@ Provides an executive view of:
 - monthly ARR trend
 
 ![Executive Overview](images/01_executive_overview.png)
+
+---
 
 ### 2. Customer Health & Risk
 
@@ -374,6 +498,8 @@ Analyzes:
 
 ![Customer Health and Risk](images/02_customer_health_risk.png)
 
+---
+
 ### 3. CS Priority Accounts
 
 Supports Customer Success operations through:
@@ -381,9 +507,11 @@ Supports Customer Success operations through:
 - urgent account counts
 - prioritized account ranking
 - revenue exposure by renewal window
-- account-level Customer Success priority detail
+- account-level Customer Success priority details
 
 ![CS Priority Accounts](images/03_cs_priority_accounts.png)
+
+---
 
 ### 4. Retention & Revenue
 
@@ -392,12 +520,14 @@ Tracks:
 - Logo Retention
 - GRR
 - NRR
-- expansion MRR
-- contraction MRR
-- churned MRR
+- Expansion MRR
+- Contraction MRR
+- Churned MRR
 - segment-level retention performance
 
 ![Retention and Revenue](images/04_retention_revenue.png)
+
+---
 
 ### 5. Usage & Support Drivers
 
@@ -411,6 +541,29 @@ Tracks:
 - High/Critical support-ticket trends
 
 ![Usage and Support Drivers](images/05_usage_support_drivers.png)
+
+---
+
+## SQL Analysis
+
+The SQL layer demonstrates:
+
+- multi-table joins
+- Common Table Expressions
+- window functions
+- conditional business logic
+- date calculations
+- aggregations
+- customer segmentation
+- data-quality validation
+- customer health scoring
+- revenue-risk calculations
+- priority ranking
+- cohort analysis
+- retention calculations
+- reusable analytical views
+
+The final SQL layer also creates Power BI-ready views so dashboard logic is separated from the underlying transactional tables.
 
 ---
 
@@ -457,7 +610,13 @@ customer-health-revenue-risk/
 │   ├── 08_load_invoices.sql
 │   ├── 09_load_cs_interactions.sql
 │   ├── 10_full_database_validation.sql
-│   └── ...
+│   ├── 11_exploratory_analysis.sql
+│   ├── 12_create_account_health_base.sql
+│   ├── 13_health_signal_distribution.sql
+│   ├── 14_create_customer_health_score.sql
+│   ├── 15_revenue_at_risk_prioritization.sql
+│   ├── 16_retention_revenue_analysis.sql
+│   └── 17_create_powerbi_views.sql
 │
 ├── powerbi/
 │   └── Customer_Health_Revenue_Risk.pbix
@@ -474,23 +633,50 @@ customer-health-revenue-risk/
 
 ## Running the Project Locally
 
-### 1. Create the Python environment
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yuvithedeveloper/customer-health-revenue-risk.git
+cd customer-health-revenue-risk
+```
+
+### 2. Create a Python virtual environment
 
 ```bash
 python -m venv .venv
 ```
 
-Activate the virtual environment and install:
+Activate the environment.
+
+Windows:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Generate and clean the synthetic datasets
+### 3. Generate and clean the synthetic datasets
 
 Run the generation and cleaning scripts in the `python/` directory.
 
-### 3. Create the PostgreSQL database
+The generated raw datasets are stored in:
+
+```text
+data/raw/
+```
+
+Cleaned datasets are stored in:
+
+```text
+data/processed/
+```
+
+### 4. Create the PostgreSQL database
 
 Execute the SQL scripts in numerical order.
 
@@ -500,7 +686,7 @@ The project database is:
 cloudpath_analytics
 ```
 
-### 4. Validate the database
+### 5. Validate the database
 
 Run:
 
@@ -510,11 +696,23 @@ sql/10_full_database_validation.sql
 
 before beginning the analytical SQL layer.
 
-### 5. Run the analytical SQL
+### 6. Run the analytical SQL
 
-Execute the remaining SQL scripts in numerical order to create the analytical views, health scoring, revenue-risk calculations, prioritization logic, retention analysis, and Power BI-ready views.
+Execute:
 
-### 6. Open the Power BI report
+```text
+sql/11_exploratory_analysis.sql
+sql/12_create_account_health_base.sql
+sql/13_health_signal_distribution.sql
+sql/14_create_customer_health_score.sql
+sql/15_revenue_at_risk_prioritization.sql
+sql/16_retention_revenue_analysis.sql
+sql/17_create_powerbi_views.sql
+```
+
+These scripts create the analytical views, health scoring, revenue-risk calculations, Customer Success prioritization, retention analysis, and Power BI-ready datasets.
+
+### 7. Open the Power BI report
 
 Open:
 
@@ -528,11 +726,13 @@ and connect it to the local PostgreSQL database.
 
 ## Analytical Limitations
 
-This project uses synthetic data designed to represent realistic B2B SaaS behavior.
+This project uses synthetic data designed to simulate realistic B2B SaaS customer behavior.
 
-The results therefore demonstrate an analytical methodology and decision framework rather than conclusions about a real company.
+The results therefore demonstrate an analytical methodology and business decision framework rather than conclusions about a real company.
 
-The Customer Health Score and Estimated Revenue at Risk are explainable business rules created for this simulation. They should not be interpreted as statistically validated churn predictions.
+The Customer Health Score and Estimated Revenue at Risk are explainable business-rule models created for this simulation. They should not be interpreted as statistically validated churn predictions.
+
+Estimated Revenue at Risk represents modeled revenue exposure for prioritization rather than a guaranteed forecast of future customer churn.
 
 ---
 
@@ -542,4 +742,10 @@ This project demonstrates an end-to-end analytics workflow:
 
 **Business Problem → Data Generation → Data Cleaning → PostgreSQL → SQL Analysis → Customer Health Scoring → Revenue Risk → Customer Prioritization → Retention Analysis → Power BI → Business Recommendations**
 
-The final output is designed to help a Customer Success organization answer not only **which customers are at risk**, but also **why they are at risk, how much revenue is exposed, and which accounts should be prioritized first**.
+The final output helps a Customer Success organization answer not only:
+
+**Which customers are at risk?**
+
+but also:
+
+**Why are they at risk, how much recurring revenue is exposed, and which accounts should be prioritized first?**
